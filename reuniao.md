@@ -33,3 +33,6 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 ## Estruturas
 
+## UsuariosRepository
+[] cadastrar: ({nome_completo, CPF, telefone, endereço, email}) => Promise<void>
+
