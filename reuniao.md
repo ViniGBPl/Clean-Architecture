@@ -9,7 +9,7 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 # UseCases (Regras de negócio)
 [x] Cadastrar um novo usuário
-[] - CPF ou email devem ser únicos
+[x] - CPF ou email devem ser únicos
 
 [] Buscar um cadastro de usuário por CPF
 [] - Retornar um usuário ou vazio
@@ -35,4 +35,7 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 ## UsuariosRepository
 [] cadastrar: ({nome_completo, CPF, telefone, endereço, email}) => Promise<void>
+[] existePorCPF(CPF) => Promise<boolean>
+[] existePorEmail(email) => Promise<boolean>
+
 
