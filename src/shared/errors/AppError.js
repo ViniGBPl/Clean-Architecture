@@ -4,4 +4,5 @@ module.exports = class AppError extends Error {
     this.message = message;
    }
    static dependencias = 'Algumas dependências não foram fornecidas';
+   static parametrosObrigatoriosAusentes = 'Algum parâmetro obrigatório não foi fornecido'
 }
