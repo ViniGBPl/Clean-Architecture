@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1790081076061" clover="3.2.0">
-  <project timestamp="1790081076061" name="All files">
-    <metrics statements="26" coveredstatements="26" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3" elements="40" coveredelements="40" complexity="0" loc="26" ncloc="26" packages="2" files="2" classes="2"/>
+<coverage generated="1790088385789" clover="3.2.0">
+  <project timestamp="1790088385790" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="17" coveredconditionals="17" methods="7" coveredmethods="7" elements="82" coveredelements="82" complexity="0" loc="58" ncloc="58" packages="2" files="4" classes="4"/>
     <package name="application">
-      <metrics statements="18" coveredstatements="18" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <metrics statements="23" coveredstatements="23" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
       <file name="cadastrar-usuario.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\cadastrar-usuario.usecase.js">
-        <metrics statements="18" coveredstatements="18" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <metrics statements="23" coveredstatements="23" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="2" type="cond" truecount="4" falsecount="0"/>
-        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
       </file>
     </package>
     <package name="shared.errors">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="35" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <file name="AppError.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\AppError.js">
-        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="3" count="6" type="stmt"/>
@@ -38,6 +43,39 @@
         <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="2" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="Either.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\Either.js">
+        <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\index.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
   </project>
