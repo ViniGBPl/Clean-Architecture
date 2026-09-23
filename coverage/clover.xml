@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1790113239401" clover="3.2.0">
-  <project timestamp="1790113239401" name="All files">
-    <metrics statements="78" coveredstatements="78" conditionals="22" coveredconditionals="22" methods="9" coveredmethods="9" elements="109" coveredelements="109" complexity="0" loc="78" ncloc="78" packages="2" files="5" classes="5"/>
+<coverage generated="1790170770492" clover="3.2.0">
+  <project timestamp="1790170770493" name="All files">
+    <metrics statements="80" coveredstatements="80" conditionals="26" coveredconditionals="26" methods="9" coveredmethods="9" elements="115" coveredelements="115" complexity="0" loc="80" ncloc="80" packages="2" files="5" classes="5"/>
     <package name="application">
-      <metrics statements="38" coveredstatements="38" conditionals="15" coveredconditionals="15" methods="2" coveredmethods="2"/>
+      <metrics statements="40" coveredstatements="40" conditionals="19" coveredconditionals="19" methods="2" coveredmethods="2"/>
       <file name="buscar-usuario-por-cpf.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\buscar-usuario-por-cpf.usecase.js">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
       <file name="cadastrar-usuario.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\cadastrar-usuario.usecase.js">
         <metrics statements="29" coveredstatements="29" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
@@ -55,9 +57,9 @@
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="6" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
         <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
@@ -72,16 +74,16 @@
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
         <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="20" count="2" type="stmt"/>
