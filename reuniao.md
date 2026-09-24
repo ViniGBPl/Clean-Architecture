@@ -11,10 +11,10 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 [x] Cadastrar um novo usuário
 [x] - CPF ou email devem ser únicos
 
-[] Buscar um cadastro de usuário por CPF
-[] - Retornar um usuário ou vazio
+[x] Buscar um cadastro de usuário por CPF
+[x] - Retornar um usuário ou vazio
 
-[] Cadastrar um novo livro
+[X] Cadastrar um novo livro
 [] - ISBN deve ser único
 
 [] Buscar um livro por nome por nome ou ISBM
@@ -38,4 +38,6 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 [] existePorCPF(CPF) => Promise<boolean>
 [] existePorEmail(email) => Promise<boolean>
 
+# livrosRepository
+[] cadastrar: ({nome, quantidade, autor, genero,ISBN}) => Promise<void>
 

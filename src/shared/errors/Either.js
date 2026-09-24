@@ -23,5 +23,9 @@ module.exports = class Either{
     static EmailJaCadastrado(valor){
         return{message:`${valor} já cadastrado.`}
     };
+
+    static ISBNJaCadastrado(valor){
+        return{message:`${valor} já cadastrado.`}
+    }
     
 }
