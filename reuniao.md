@@ -15,7 +15,7 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 [x] - Retornar um usuário ou vazio
 
 [X] Cadastrar um novo livro
-[] - ISBN deve ser único
+[x] - ISBN deve ser único
 
 [] Buscar um livro por nome por nome ou ISBM
 [] - Retornar os livros ou vazio
@@ -40,4 +40,6 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 # livrosRepository
 [] cadastrar: ({nome, quantidade, autor, genero,ISBN}) => Promise<void>
+
+[] existePorISBN: (ISBN) => Promise<Boolean>
 
