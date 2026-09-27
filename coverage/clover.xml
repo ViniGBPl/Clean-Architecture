@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1790266568569" clover="3.2.0">
-  <project timestamp="1790266568569" name="All files">
+<coverage generated="1790474565724" clover="3.2.0">
+  <project timestamp="1790474565725" name="All files">
     <metrics statements="106" coveredstatements="106" conditionals="40" coveredconditionals="40" methods="12" coveredmethods="12" elements="158" coveredelements="158" complexity="0" loc="106" ncloc="106" packages="2" files="7" classes="7"/>
     <package name="application">
       <metrics statements="62" coveredstatements="62" conditionals="32" coveredconditionals="32" methods="4" coveredmethods="4"/>
-      <file name="buscar-livros-por-nome-ou-isbn.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\buscar-livros-por-nome-ou-isbn.usecase.js">
+      <file name="buscar-livros-por-nome-ou-isbn.usecase.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\application\buscar-livros-por-nome-ou-isbn.usecase.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
       </file>
-      <file name="buscar-usuario-por-cpf.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\buscar-usuario-por-cpf.usecase.js">
+      <file name="buscar-usuario-por-cpf.usecase.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\application\buscar-usuario-por-cpf.usecase.js">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -29,7 +29,7 @@
         <line num="10" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
       </file>
-      <file name="cadastrar-livro.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\cadastrar-livro.usecase.js">
+      <file name="cadastrar-livro.usecase.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\application\cadastrar-livro.usecase.js">
         <metrics statements="14" coveredstatements="14" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -46,7 +46,7 @@
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
       </file>
-      <file name="cadastrar-usuario.usecase.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\application\cadastrar-usuario.usecase.js">
+      <file name="cadastrar-usuario.usecase.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\application\cadastrar-usuario.usecase.js">
         <metrics statements="29" coveredstatements="29" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -81,7 +81,7 @@
     </package>
     <package name="shared.errors">
       <metrics statements="44" coveredstatements="44" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
-      <file name="AppError.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\AppError.js">
+      <file name="AppError.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\shared\errors\AppError.js">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -93,7 +93,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="Either.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\Either.js">
+      <file name="Either.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\shared\errors\Either.js">
         <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -102,16 +102,16 @@
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="3" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
         <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="20" count="2" type="stmt"/>
@@ -127,7 +127,7 @@
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
       </file>
-      <file name="index.js" path="C:\Users\vinic\OneDrive\Documentos\Projetos de Estudo\EstudoBack\clean-js\src\shared\errors\index.js">
+      <file name="index.js" path="C:\Users\ViniciusLima\Documents\EstudoUdemy\Clean-Architecture\src\shared\errors\index.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>

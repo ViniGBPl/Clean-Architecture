@@ -29,6 +29,22 @@ describe('Buscar livros por nome ou ISBN UseCase', function() {
         expect(output.right).toEqual(outputDTO);
         expect(livrosRepository.buscarPorNomeOuISBN).toHaveBeenCalledWith(nomeISBNDTO.valor);
         expect(livrosRepository.buscarPorNomeOuISBN).toHaveBeenCalledTimes(1);
-    })
+    });
+
+    test('Deve retornar um array vazio quando não existir um livro com o nome ou ISBN informado', async function(){
+       
+        livrosRepository.buscarPorNomeOuISBN.mockResolvedValue([]);
+
+        const nomeISBNDTO = {
+            valor:'valor_nao_cadastrado'
+        };
+
+        const sut = buscarLivrosPorNomeOuISBNUseCase({livrosRepository});
+        const output = await sut(nomeISBNDTO);
+
+       expect(output.right).toEqual([]);
+       expect(livrosRepository.buscarPorNomeOuISBN).toHaveBeenCalledWith(nomeISBNDTO.valor);
+       expect(livrosRepository.buscarPorNomeOuISBN).toHaveBeenCalledTimes(1);
+    });
 
 })
