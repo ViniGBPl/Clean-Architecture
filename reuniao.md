@@ -43,3 +43,5 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 [] existePorISBN: (ISBN) => Promise<Boolean>
 
+[] buscarPorNomeOuISBN: (valor) => Promise<array<Livro>>
+
