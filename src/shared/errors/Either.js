@@ -26,6 +26,11 @@ module.exports = class Either{
 
     static ISBNJaCadastrado(valor){
         return{message:`${valor} já cadastrado.`}
+    };
+
+    
+    static livroComISBNJaEmprestadoPendenteUsuario(){
+        return {message: 'O livro com este ISBN já está emprestado e não foi devolvido pelo usuário.'}
     }
     
 }

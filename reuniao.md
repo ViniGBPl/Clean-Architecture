@@ -17,8 +17,8 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 [X] Cadastrar um novo livro
 [x] - ISBN deve ser único
 
-[] Buscar um livro por nome por nome ou ISBM
-[] - Retornar os livros ou vazio
+[x] Buscar um livro por nome por nome ou ISBM
+[x] - Retornar os livros ou vazio
 
 [] Emprestar um livro ao usuario
 [] - A data de retorno não pode ser menor que a data de saída
