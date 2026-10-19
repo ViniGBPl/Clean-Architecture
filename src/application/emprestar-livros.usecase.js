@@ -1,4 +1,5 @@
-const { AppError} = require("../shared/errors")
+const { AppError, Either} = require("../shared/errors")
+
 
 module.exports = function emprestarLivroUseCase({emprestimosRepository}){
     if(!emprestimosRepository) throw new AppError(AppError.dependencias);
@@ -7,16 +8,18 @@ module.exports = function emprestarLivroUseCase({emprestimosRepository}){
         if(!checaCampos) throw new AppError(AppError.parametrosObrigatoriosAusentes);
         if(data_saida.getTime() > data_retorno.getTime()) 
             return Either.length(Either.dataRetornoMenorQueDataSaida);
-        const existeLivroISBNEmprestadoPendenteUsuario = await emprestimosRepository.existeLivroISBNEmprestadoPendenteUsuario({
+        const existeLivroISBNEmprestadoPendenteUsuario = await 
+        emprestimosRepository.existeLivroISBNEmprestadoPendenteUsuario({
             usuario_id, livro_id});
 
-        if(existeLivroISBNEmprestadoPendenteUsuario) return Either.livroComISBNJaEmprestadoPendenteUsuario
+        if(existeLivroISBNEmprestadoPendenteUsuario) return Either.livroComISBNJaEmprestadoPendenteUsuario;
         
-        await emprestimosRepository.emprestarLivro({
+        await emprestimosRepository.emprestar({
             usuario_id,
             livro_id,
             data_saida,
-            data_retorno});
+            data_retorno
+        });
 
         return Either.Right(null);
 

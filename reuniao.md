@@ -45,3 +45,5 @@ Emprestimo: [usuario_id, livro_id, data_retorno, data_devolucao, data_saida]
 
 [] buscarPorNomeOuISBN: (valor) => Promise<array<Livro>>
 
+## emprestimosRepository
+[] emprestar({livro_id, usuario_id, dat_saida, data_retorno}) => Promise<void>
